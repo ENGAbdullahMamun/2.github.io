@@ -5,7 +5,9 @@ body {
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
-
+.mb{
+    display: none;
+}
 a {
   color: #1dc8cd;
   transition: 0.5s;
@@ -109,22 +111,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: gray;
+  background: black;
   padding: 20px 0;
-  height: 90px;
+  height: 80px;
   transition: all 0.5s;
+  opacity: 0.7;
 }
 
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
-#intro {
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(45deg, rgba(29, 224, 153, 0.8), rgba(29, 200, 205, 0.8)), url("../img/intro-bg.jpg") center top no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
 @media (min-width: 1024px) {
   #intro {
@@ -132,41 +128,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#intro .intro-text {
-  position: absolute;
-  left: 0;
-  top: 60px;
-  right: 0;
-  height: calc(50% - 60px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-}
-
-#intro h2 {
-  margin: 30px 0 10px 0;
-  padding: 0 15px;
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 56px;
-  color: #fff;
-}
-
-@media (max-width: 768px) {
-  #intro h2 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-}
-
-#intro p {
-  color: #fff;
-  margin-bottom: 20px;
-  padding: 0 15px;
-  font-size: 24px;
-}
 .ext{
     height: 80vh;
     width: 100%
@@ -252,7 +213,7 @@ padding: 10px;
       width: 100%
   }
   .mb{
-          display: block;
+          display: inline;
       }
 .imgg{
   height: 200px;
@@ -271,12 +232,7 @@ padding: 10px;
     margin-bottom: -30px;
   }
   #topbar {
-    background-color: #d15410;
-    padding: 5px 0;
-    border-bottom: 1px solid #eee;
-    font-size: 50px;
-    align-content: center;
-    display: none;
+      display: none;
   }
   #header {
     padding: 20px 0;
@@ -363,6 +319,8 @@ padding: 10px;
   border-bottom: 1px solid #eee;
   font-size: 15px;
   align-content: center;
+  z-index: 1000;
+  position: relative;
 }
 #topbar:hover {
   background: black;
@@ -460,45 +418,6 @@ padding: 10px;
       -webkit-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
     }
-
-
-
-@media (min-width: 1200px){
-
-}
-
-@media (max-width: 999px) {
-
-}
-@media (max-width: 880px) {
-
-}
-@media (max-width: 600px) {
-
-}
-@media (max-width: 480px) {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 body {
@@ -711,7 +630,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 150px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #intro .product-screens .product-screen-1 {
     position: static;
     padding-top: 30px;
@@ -761,24 +680,23 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu ul li {
   min-width: 180px;
 }
-.mb{
-    display: none;
-}
+
 .hv:hover{
     color:yellow;
     border: 3px solid yellow;
             }
   .mobilelinks1{
     padding: 8px;
-    border: 0px solid white;
     color: white;
+    background-color: #343a40;
   }
   .mobilelinks{
     padding: 15px;
     border: 3px solid white;
-    color: #505152;
+    color: #343a40;
     background-color: white;
     font-weight: bold;
+    font-size: 25px;
   }
 /* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
@@ -1003,7 +921,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     animation: logo 4s forwards 0s linear;
 }
 .numb{
-  animation: numb 5s infinite 0s linear;
+  animation: numb 15s infinite 0s linear;
+  border-radius: 16px 16px 16px 16px;
+  -moz-border-radius: 16px 16px 16px 16px;
+  -webkit-border-radius: 16px 16px 16px 16px;
+  border: 0px solid #000000;
+  margin: 0;
+  padding-top: 1px;
+}
+.numbb:hover{
+  background-color: gray;
+  color: yellow;
 }
 @keyframes logo{
     0%{
@@ -1164,12 +1092,80 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @keyframes numb{
     0%{
-        background: white;
-        color: #d15410;
+        background: gray;
+        color: white;
         }
-    100%{
+    6%{
+        background: black;
+        color: white;
+        }
+    12%{
+        background: blue;
+        color: white;
+        }
+    18%{
+        background: red;
+        color: white;
+        }
+    25%{
+        background: blue;
+        color: white;
+        }
+    31%{
+        background: green;
+        color: white;
+        }
+    37%{
+        background: gray;
+        color: white;
+        }
+    43%{
+        background: black;
+        color: white;
+        }
+    49%{
         transform: rotate(xx);
-        background: 0;
-        color: 0;
+        background: black;
+        color: white;
+        }
+    55%{
+        transform: rotate(xx);
+        background: blue;
+        color: white;
+        }
+    61%{
+        transform: rotate(xx);
+        background: green;
+        color: white;
+        }
+    68%{
+        transform: rotate(xx);
+        background: black;
+        color: white;
+        }
+    74%{
+        transform: rotate(xx);
+        background: gray;
+        color: white;
+        }
+    80%{
+        transform: rotate(xx);
+        background: black;
+        color: white;
+        }
+    86%{
+        transform: rotate(xx);
+        background: green;
+        color: white;
+        }
+    92%{
+        transform: rotate(xx);
+        background: gray;
+        color: white;
+        }
+    97%{
+        transform: rotate(xx);
+        background: black;
+        color: white;
         }
 }
