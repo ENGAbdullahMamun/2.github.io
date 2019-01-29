@@ -44,253 +44,155 @@ $(".2").click(function(){
 </head>
 <body id="body">
 
-  <!--==========================
-    Top Bar
-  ============================-->
-  <section id="topbar" class="d-none d-lg-block" style="background: rgba(36,36,36,1);
-  background: -moz-linear-gradient(left, rgba(36,36,36,1) 0%, rgba(41,41,41,1) 12%, rgba(48,48,48,1) 25%, rgba(33,33,33,1) 39%, rgba(20,20,20,1) 50%, rgba(0,0,0,1) 51%, rgba(8,8,8,1) 60%, rgba(20,20,20,1) 76%, rgba(13,13,13,1) 91%, rgba(8,8,8,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(36,36,36,1)), color-stop(12%, rgba(41,41,41,1)), color-stop(25%, rgba(48,48,48,1)), color-stop(39%, rgba(33,33,33,1)), color-stop(50%, rgba(20,20,20,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(8,8,8,1)), color-stop(76%, rgba(20,20,20,1)), color-stop(91%, rgba(13,13,13,1)), color-stop(100%, rgba(8,8,8,1)));
-  background: -webkit-linear-gradient(left, rgba(36,36,36,1) 0%, rgba(41,41,41,1) 12%, rgba(48,48,48,1) 25%, rgba(33,33,33,1) 39%, rgba(20,20,20,1) 50%, rgba(0,0,0,1) 51%, rgba(8,8,8,1) 60%, rgba(20,20,20,1) 76%, rgba(13,13,13,1) 91%, rgba(8,8,8,1) 100%);
-  background: -o-linear-gradient(left, rgba(36,36,36,1) 0%, rgba(41,41,41,1) 12%, rgba(48,48,48,1) 25%, rgba(33,33,33,1) 39%, rgba(20,20,20,1) 50%, rgba(0,0,0,1) 51%, rgba(8,8,8,1) 60%, rgba(20,20,20,1) 76%, rgba(13,13,13,1) 91%, rgba(8,8,8,1) 100%);
-  background: -ms-linear-gradient(left, rgba(36,36,36,1) 0%, rgba(41,41,41,1) 12%, rgba(48,48,48,1) 25%, rgba(33,33,33,1) 39%, rgba(20,20,20,1) 50%, rgba(0,0,0,1) 51%, rgba(8,8,8,1) 60%, rgba(20,20,20,1) 76%, rgba(13,13,13,1) 91%, rgba(8,8,8,1) 100%);
-  background: linear-gradient(to right, rgba(36,36,36,1) 0%, rgba(41,41,41,1) 12%, rgba(48,48,48,1) 25%, rgba(33,33,33,1) 39%, rgba(20,20,20,1) 50%, rgba(0,0,0,1) 51%, rgba(8,8,8,1) 60%, rgba(20,20,20,1) 76%, rgba(13,13,13,1) 91%, rgba(8,8,8,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242424', endColorstr='#080808', GradientType=1 );">
-    <div class="clearfix"><center>
-      <div class="contact-info d-inline-block">
-        <i class="fa fa-envelope-o"></i> <a href="info@painfreemedspa.com" class="text-white"><b>info@painfreemedspa.com</b></a>
-        <i class="fa fa-phone"></i><b class="text-white">+918 710 5060</b>
+  <section id="topbar" class="d-lg-block">
+      <div class="clearfix"><center>
+        <div class="contact-info d-inline-block">
+          <i class="fa fa-envelope-o"></i> <a href="info@painfreemedspa.com" class="text-white inf"><b>info@painfreemedspa.com</b></a>
+          <i class="fa fa-phone"></i><b class="text-white text">+918 710 5060</b>
+          </div>
+          <div class="social-links d-inline-block">
+         <a href="https://www.facebook.com/primemedspa/" class="facebook"><i class="fa fa-facebook"></i></a>
         </div>
-        <div class="social-links d-inline-block">
-       <a href="https://www.facebook.com/primemedspa/" class="facebook"><i class="fa fa-facebook"></i></a>
-      </div>
   </center>
-    </div>
-  </section>
-
-  <!--==========================
-    Header
-  ============================-->
-
-
-
-  <header id="header"  style="background-color: whitesmoke;
--webkit-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.63);
--moz-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.63);
-box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.63);">
-    <div class="container" style="background-color: whitesmoke;">
-<div id="logo" class="pull-left">
-     <a href="../index.php"><img src="../logo.png" class="scrollto" height="50px"></a>
-
       </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="../index.php">Home</a></li>
-          <li class="menu-has-children"><a href="">PrimeMed</a>
-            <ul>
-            <li><a href="Acne.php">Acne Treatments</a></li>
-            <li><a href="botox.php" >Botox</a></li>
-          <li><a href="dermalFilter.php" >Dermal Filter</a></li>
-          <li><a href="dremplanefacials.php" >Dremplane Facials</a></li>
-          <li><a href="melanageMinPeel.php" >Melanage Min Peel</a></li>
-          <li><a href="skinResufacing.php" >Skin Resurfacing</a></li>
-          <li><a href="BBLlaser.php" >BBL Laser Hair Removel</a></li>
-          <li><a href="chestandneck.php" >Chest And Neck Rejuvenation</a></li>
-          <li><a href="hairlossrestoration.php" >Hair Lose Restoration</a></li>
-          <li><a href="microlaserpeel.php" >Microlaser Peel</a></li>
-          <li><a href="permanetcosmetic.php" >Permanet Cosmetics</a></li>
-          <li><a href="searrevision.php" >Sear Revision</a></li>
-          <li><a href="profacial.php" >Photo Facial</a></li>
-          <li><a href="queladge.php" >Queladge</a></li>
-          <li><a href="profacialtherafy.php" >Profacial Therafy</a></li>
-          <li><a href="skinresurfacingnano.php" >Skin Resurfacing with Nano Laser Peel</a></li>
-            </ul>
-          </li>
-
-          <li class="menu-has-children"><a href="">PrimeSpa</a>
-            <ul>
-              <li><a href="bridalparty.php" >Bridal Party Beauty</a><li>
-          <li><a href="dermaplane.php" >Dermaplane</a><li>
-          <li><a href="massagetheraphy.php" >Massage Theraphy</a><li>
-          <li><a href="waixing.php" >Waixing</a><li>
-          <li><a href="redken.php" >Redken Salon</a></li>
-            </ul>
-          </li>
-
-           <li class="menu-has-children"><a href="">Products</a>
-            <ul>
-              <li><a href="additional.php" >Aditional Skincare Lines</a></li>
-              </ul>
-          </li>
-
-
-            <li class="menu-has-children"><a href="">Resources</a>
-            <ul>
-            <li><a href="https://carecredit.com/" >Care Credit</a></li>
-              </ul>
-          </li>
-
-          <li class="menu-has-children"><a href="">PrimeMen</a>
-            <ul>
-              <li><a href="mensfacials.php" >Mens Facials</a></li>
-          <li>  <a href="hairlossrestorationmen.php" >Hair Loss Restoration Men</a></li>
-          <li>  <a href="menslasehairremovel.php" >Men's Laser Hair Removel</a></li>
-             </ul>
-          </li>
-          <li><a href="contact.php">Contact</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
-
-<section id="intro">
-<div>
-
-
-    <br><br><br>
-
-<div class="beauty">
-<div class="row fullscreen align-items-center justify-content-between ">
-						<div class="col-lg-6 col-md-4 col-sm-4">
-							<h4 style="font-family: 'Dancing Script', cursive;">Rest & Relax</h4>
-							<h1 style="font-family: 'Shrikhand', cursive;">Beauty & Spa Salon</h1>
-							<p>
-								Enjoy some much needed me time during a three hour spa session
-	</p>
-<a href="contact.php" class="btn btn-info" style="padding: 15px; background-color: floralwhite ; background: rgba(247,131,193,1);
-background: -moz-linear-gradient(left, rgba(247,131,193,1) 0%, rgba(156,3,85,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(247,131,193,1)), color-stop(100%, rgba(156,3,85,1)));
-background: -webkit-linear-gradient(left, rgba(247,131,193,1) 0%, rgba(156,3,85,1) 100%);
-background: -o-linear-gradient(left, rgba(247,131,193,1) 0%, rgba(156,3,85,1) 100%);
-background: -ms-linear-gradient(left, rgba(247,131,193,1) 0%, rgba(156,3,85,1) 100%);
-background: linear-gradient(to right, rgba(247,131,193,1) 0%, rgba(156,3,85,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f783c1', endColorstr='#9c0355', GradientType=1 ); border-radius: 42px 42px 42px 42px;
--moz-border-radius: 42px 42px 42px 42px;
--webkit-border-radius: 42px 42px 42px 42px;
-border: 0px solid #000000;" id="req">REQUEST AN APPOINTMENT</a>
-</div><br>
-</div>
-</div>
- </div>
-</section>
-
-
-
-
-
-
-
-    <!-- #intro -->
-
-  <main id="main">
-<section id="" class="wow fadeInUp">
-      <div class="loca">
-        <center><div class="continer">
-        <div class="d-inline-block col-md-4 col-lg-4 col-xl-4 col-sm-4" style="display: flex">
-        <ul class="pp-icon-list-items pp-list-type-icon">
-
-
-            <li class="pp-icon-list-item pp-icon-list-item-0" style="list-style: none">
-              <span class="pp-list-item-icon fa fa-map-marker"></span>
-              <span class="pp-list-item-text">7307 S Yale Ave Tulsa, OK 74136</span>
-            </li>
-
-
-          </ul>
-        </div>
-        <loc>
-        <div class="d-inline-block col-md-2 col-lg-2 col-xl-2 col-sm-2 locc">
-        <ul class="pp-icon-list-items pp-list-type-icon">
-        <style>
-
-        li:hover {
-        border-radius: 22px 22px 22px 22px;
-        -moz-border-radius: 22px 22px 22px 22px;
-        -webkit-border-radius: 22px 22px 22px 22px;
-        border: 0px solid #000000;
-        color: white;
-        background-color: black;
-        margin: 0;
-        padding: 0;
-        }
-          .pp-list-item-icon{
-              color: black;
-                width: 40px;
-               height: 40px;
-               line-height: 35px;
-                margin-top: 5px;
-                transition: 0.5s;
-              border-radius: 200px 200px 200px 200px;
-        -moz-border-radius: 200px 200px 200px 200px;
-        -webkit-border-radius: 200px 200px 200px 200px;
-        border: 0px solid #000000;
-              background-color: white;
-          }
-        </style>
-
-            <li class="pp-icon-list-item pp-icon-list-item-0" style="list-style: none ;">
-              <span class="pp-list-item-icon ua-icon fa fa-users"></span>
-              <span class="pp-list-item-text">Team</span>
-            </li>
-
-
-          </ul>
-        </div>
-        <div class="d-inline-block col-md-2 col-lg-2 col-xl-2 col-sm-2 locc">
-        <ul class="pp-icon-list-items pp-list-type-icon">
-
-
-            <li class="pp-icon-list-item pp-icon-list-item-0" style="list-style: none">
-              <span class="pp-list-item-icon fa fa-cogs"></span>
-              <span class="pp-list-item-text">Technology</span>
-            </li>
-
-
-          </ul>
-        </div>
-        <div class="d-inline-block col-md-2 col-lg-2 col-xl-2 col-sm-2 locc">
-        <ul class="pp-icon-list-items pp-list-type-icon">
-
-
-            <li class="pp-icon-list-item pp-icon-list-item-0" style="list-style: none">
-              <span class="pp-list-item-icon fa fa-smile-o"></span>
-              <span class="pp-list-item-text">Rejuvenated</span>
-            </li>
-
-
-          </ul>
-        </div>
-            </loc>
-        </div>
-        </center></div>
-	<!-- #nav-menu-container -->
-
     </section>
+    <!--==========================
+      Header
+    ============================-->
+    <header id="header">
+      <div style="margin-left: 60px; margin-right: 60px">
 
-<a href="contact.php"> <center class="wow fadeInUp text-dark h4"><b>Contact Us</b></center></a><hr>
+        <div id="logo" class="pull-left">
+          <h1><a href="../index.html"><img src="../logo1.png" alt="" title="" style="height: 50px; width: 150px"></a></h1>
 
-  <div class="row wow fadeInUp container fk">
-<form class=" col-lg-6 form-container frmmm">
-   <center><div class="container">
-   <b class="h3 text-warning" style="font-weight: 700">BOOK YOUR FREE</b>
-    <br><b class="h6 text-info">C O N S U L T A T I O N</b><br>
-      <b class="">Or call our friendly staff today</b>
+        </div>
+
+        <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li class="menu-active"><a href="../index.html">Home</a></li>
+
+           <li class="menu-has-children"><a href="">PrimeMed</a>
+              <ul>
+              <li><a href="Acne.html">Acne Treatments</a></li>
+                  <li><a href="botox.html" >Botox</a></li>
+                  <li> <a href="dermalFilter.html">Dermal Filter</a></li>
+              <li><a href="dremplanefacials.html">Dremplane Facials</a></li>
+              <li><a href="melanageMinPeel.html">Melanage Min Peel</a></li>
+              <li><a href="skinResufacing.html" >Skin Resurfacing</a></li>
+              <li><a href="BBLlaser.html">BBL Laser Hair Removel</a></li>
+              <li><a href="chestandneck.html" >Chest And Neck Rejuvenation</a></li>
+             <li> <a href="hairlossrestoration.html">Hair Lose Restoration</a></li>
+              <li><a href="microlaserpeel.html">Microlaser Peel</a></li>
+             <li> <a href="permanetcosmetic.html">Permanet Cosmetics</a></li>
+              <li><a href="searrevision.html" >Sear Revision</a></li>
+             <li> <a href="profacial.html">Photo Facial</a></li>
+                 <li><a href="queladge.html">Queladge</a></li>
+              <li><a href="profacialtherafy.html">Profacial Therafy</a></li>
+              <li><a href="skinresurfacingnano.html">Skin Resurfacing with Nano Laser Peel</a></li>
+
+              </ul>
+            </li>
+
+              <li class="menu-has-children"><a href="">PrimeSpa</a>
+              <ul>
+               <li><a href="bridalparty.html" class="1">Bridal Party Beauty</a></li>
+                  <li> <a href="dermaplane.html" class="1">Dermaplane</a></li>
+                  <li><a href="massagetheraphy.html" class="1">Massagetheraphy</a></li>
+                  <li> <a href="waixing.html" class="1">Waixing</a></li>
+             <li> <a href="redken.html" class="1">Redken Salon</a></li>
+
+              </ul>
+            </li>
+
+              <li class="menu-has-children"><a href="">PrimeMen</a>
+              <ul>
+                  <li><a href="mensfacials.html" class="1">Mens Facials</a></li>
+                  <li><a href="hairlossrestorationmen.html" class="1">Hair Loss Restoration Men</a></li>
+              <li><a href="menslasehairremovel.html" class="1">Men's Laser Hair Removel</a></li>
+
+              </ul>
+            </li>
+
+               <li class="menu-has-children"><a href="">Resources</a>
+              <ul>
+              <li><a href="https://carecredit.com/" class="1">Care Credit</a></li>
+                </ul>
+            </li>
+
+               <li class="menu-has-children"><a href="">Products</a>
+              <ul>
+                <li><a href="additional.html" class="1">Aditional Skincare Lines</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav><!-- #nav-menu-container -->
+      </div>
+    </header><!-- #header -->
+
+    <!--==========================
+      Intro Section
+    ============================-->
+    <section>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../img/spa2.jpg" class="d-block w-100 cara" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/rec.jpg" class="d-block w-100 cara" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/spa.jpg" class="d-block w-100 cara" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+    </section>
+    <div class="mb bg-dark" style="text-align: center;">
+
+    <div class="mobilelinks1">
+        <a href="tel:1-918-710-5060"><h6 class="mobilelinks" style="margin-top: 30px;">Call Now - 918.710.5060</h6></a>
+        <a href="pages/contact.html" class="col-sm-12" ><h6 class=" mobilelinks">Book Appointment Now</h6></a>
+        <a href="pages/PrimeSpa.html" class="col-sm-12" ><h6 class="mobilelinks">Spa Services</h6></a>
+    </div>
+    </div>
+    </section>
+  <main id="main" class="bg-dark" style="color: white">
+<a href="contact.php"> <center class="wow fadeInUp h4"><b>Contact Us</b></center></a><hr>
+<center>
+
+
+
+<form class="container col-lg-8 p-5 form-container">
+   <center><div class="container wow bounce">
+   <b class="h3 text-warning wow fadeInDown" style="font-weight: 700">BOOK YOUR FREE</b>
+    <br><b class="h6 text-info  wow fadeInDown">C O N S U L T A T I O N</b><br>
+      <b class="  wow fadeInDown">Or call our friendly staff today</b>
         </div></center><br>
    <div class="form-group">
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Full Name">
+      <input type="text" class="form-control" id="inputEmail4" name="name" placeholder="Full Name">
     </div>
 
     <div class="form-group">
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      <input type="email" class="form-control" id="inputEmail4" name="email" placeholder="Email">
     </div>
 
 <div class="form-group">
-  <input type="text" class="form-control" id="inputAddress" placeholder="Phone">
+  <input type="text" class="form-control" id="inputAddress" name="phone" placeholder="Phone">
   </div>
     <b class="h3 text-white"></b>
-<div>
-<span class="2 btn btn-outline-dark col-md-12">Please Click Herer To See Our Services</span>
-  <table class="table table-border" style="font-size: 15px; display:none">
+<div class="col-lg-12 p-1">
+  <b class="h4 p-1">Our Services</b>
+  <table class="table table-border" style="font-size: 15px;">
   <thead>
     <tr class="h5">
       <th scope="col h3">PrimeSpa</th>
@@ -303,14 +205,14 @@ border: 0px solid #000000;" id="req">REQUEST AN APPOINTMENT</a>
   <th style="font-size: 12px"><span>
 <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Chest and Neck Rejuvenation</b>
+      <input type="checkbox" name="service[]" value="Chest and Neck Rejuvenation">Chest and Neck Rejuvenation
  </div>
 </div>
 
 
   <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Melanage Mini Peel
+      <input type="checkbox" name="service[]" value="Melanage Mini Peel">Melanage Mini Peel
  </div>
 </div>
 
@@ -318,60 +220,60 @@ border: 0px solid #000000;" id="req">REQUEST AN APPOINTMENT</a>
 
   <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Photofacial
+      <input type="checkbox" name="service[]" value="Photofacial">Photofacial
  </div>
 </div>
 
 
   <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Skin Resurfacing
+      <input type="checkbox" name="service[]" value="Skin Resurfacing">Skin Resurfacing
  </div>
 </div>
 
 
   <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Redken Salon
+      <input type="checkbox" name="service[]" value="Redken Salon">Redken Salon
  </div>
 </div>
 
   <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Botox
+      <input type="checkbox" name="service[]" value="Botox">Botox
  </div>
 </div>
 
 
   <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Facials
+      <input type="checkbox" name="service[]" value="Facials">Facials
  </div>
 </div>
 
   <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Microlaser Peel
+      <input type="checkbox" name="service[]" value="Microlaser Peel">Microlaser Peel
 
 </div>
 </div>
 
   <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Profracitional Theraphy
+      <input type="checkbox" name="service[]" value="Profracitional Theraph">Profracitional Theraphy
 </div>
 </div>
 
 <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">BBL Laser Hair Removel
+      <input type="checkbox" name="service[]" value="BBL Laser Hair Removel">BBL Laser Hair Removel
     </div>
     </div>
 
 
      <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Dermaplane Facials
+      <input type="checkbox" name="service[]" value="Dermaplane Facials">Dermaplane Facials
     </div>
     </div>
 
@@ -379,45 +281,45 @@ border: 0px solid #000000;" id="req">REQUEST AN APPOINTMENT</a>
 
  <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Hair Loss Restoration
+      <input type="checkbox" name="service[]" value="Hair Loss Restoration">Hair Loss Restoration
  </div>
 </div>
 
 
  <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Skin Resurfacing With Nano Laser Peel
+      <input type="checkbox" name="service[]" value="Skin Resurfacing With Nano Laser Peel">Skin Resurfacing With Nano Laser Peel
  </div>
 </div>
 
 
  <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Dermal Fillers
+      <input type="checkbox" name="service[]" value="Dermal Fillers">Dermal Fillers
 
 
 </div>
 </div>
  <div class="">
   <div class="form-check">
-      <input type="checkbox" value=""> Permanent Cosmetics
+      <input type="checkbox" name="service[]" value=""> Permanent Cosmetics
 
 
 </div>
 </div>
  <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Quelage Peel
+      <input type="checkbox" name="service[]" value="Quelage Peel">Quelage Peel
 </div>
 </div>
       <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Scar Revision
+      <input type="checkbox" name="service[]" value="Scar Revision">Scar Revision
  </div>
 </div>
        <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Laser Hair Removal
+      <input type="checkbox" name="service[]" value="Laser Hair Removal">Laser Hair Removal
  </div>
 </div>
 
@@ -426,39 +328,39 @@ border: 0px solid #000000;" id="req">REQUEST AN APPOINTMENT</a>
     <th style="font-size: 12px"><span class="">
     <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Bridal Party
+      <input type="checkbox" name="service[]" value="Bridal Party">Bridal Party
  </div>
 </div>
 
  <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Dermaplane
+      <input type="checkbox" name="service[]" value="Dermaplane">Dermaplane
  </div>
 </div>
  <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Massage Therapy
+      <input type="checkbox" name="service[]" value="Massage Therapy">Massage Therapy
  </div>
 </div>
  <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Waxing
+      <input type="checkbox" name="service[]" value="Waxing">Waxing
  </div>
 </div> </span></th>
 <th style="font-size: 12px"><span class="">
  <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Hair Loss Restoration (Men)
+      <input type="checkbox" name="service[]" value="Hair Loss Restoration (Men)">Hair Loss Restoration (Men)
  </div>
 </div>
  <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Men's Laser Hair Removal
+      <input type="checkbox" name="service[]" value="Men's Laser Hair Removal">Men's Laser Hair Removal
  </div>
 </div>
 <div class="">
   <div class="form-check">
-      <input type="checkbox" value="">Men's Facials
+      <input type="checkbox" name="service[]" value="Men's Facials">Men's Facials
  </div>
 </div>
 </span>
@@ -466,92 +368,115 @@ border: 0px solid #000000;" id="req">REQUEST AN APPOINTMENT</a>
 </tr>
   </tbody>
 </table>
-    <b class="">Preferred time of day for Appointment:</b>
+ </div>
+ <div class="texx">
+    <b class="h4 p-1">Preferred time of day for Appointment:</b>
 <br><div class="radio container">
-      <label><input type="radio" name="optradio">Morning</label>
+      <label><input type="radio"  name="radio" value="Morning">Morning</label>
     </div>
     <div class="radio container">
-      <label><input type="radio" name="optradio">Afternoon</label>
+      <label><input type="radio" name="radio" value="Afternoon">Afternoon</label>
     </div>
 
 <div class="form-group">
-<textarea type="text" class="form-control" id="inputAddress" placeholder="Message"></textarea>
+<textarea type="text" class="form-control" id="inputAddress" name="msg" placeholder="Message"></textarea>
   </div>
-<button type="submit" class="btn btn-primary col-md-12">Send</button>
+  </div>
+<button type="submit" name="submit" class="btn btn-primary col-md-12">Send</button>
 
- </div>
+
  </form>
-<div class="vl"></div>
-<div class="col-lg-5 d-inline-block wow fadeInUp">
-  <div class="">
-  <img src="../logo.png" height="70px"/>
-      <br>
-      <br>
-     <h4 style="font-weight: 700; color: brown">7307 S Yale Ave Tulsa, OK 74136</h4>
-     <b>Phone: +918 710 5060</b><br>
-      <b>Fax: +918 392 4555</b><br>
-      <b>info@painfreemedspa.com</b><br>
+</center>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.foot{
+margin-left: 10px;
+color: white;
+ }
+.foot:hover{
+ background-color: #505152;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ color: yellow;
+ text-decoration: none;
+}
+
+</style>
+
+<div class="d-lg-flex bg-dark" style="border-top: 19px solid #717272;">
+<div class="col-lg-3 d-inline-block col-md-4 p-5">
+<img class="img-fluid d-inline-block" src="../logo1.png"><br>
+<h6 class="text-white" style="margin-top: 35px;">© 2019 painfree.com</h6>
 </div>
- </div>
-</div>
-<center style="background-color: whitesmoke;">
-<section id="contact" class="wow fadeInUp conta">
-<div class="col-md-4 d-inline-block">
-<h3>
-<span class="fl-heading-text"><strong>Contact</strong></span>
-</h3>
+
+<div class="col-lg-3 d-inline-block col-md-4 p-5 sm-mt-5 text-white">
+Contact<br>
 Phone : +918 710 5060<br>
 Fax : +918 392 4555<br>
 Email :info@painfreemedspa.com<br>
 Address : 7307 S Yale Ave Tulsa, OK 74136<br>
-Facebook : <a href="https://www.facebook.com/primemedspa/">Primemedspa</a><hr>
+Facebook : Primemedspa<br>
 </div>
 
-<div class="container col-md-5 d-inline-block" >
+<div class="col-lg-4 d-inline-block pt-5 text text-white">
 
 <h2 class="fl-heading">
 <span class="fl-heading-text"><strong>Opening</strong> Hours</span>
 </h2>
-<div class="col-md-5 d-inline-block">Monday	</div>
-<div class="col-md-5 d-inline-block">
-<time itemprop="opens" content="8:00 AM">8:00 AM</time> - <time itemprop="closes" content="8:00 PM">8:00 PM</time></div>
-<div class=" col-md-5 d-inline-block">
-<link itemprop="dayOfWeek">Tuesday</div>
-<div class=" col-md-5 d-inline-block">
-<time itemprop="opens" content="8:00 AM">8:00 AM</time> - <time itemprop="closes" content="8:00 PM">8:00 PM</time></div>
-<div class="col-md-5 d-inline-block">
-<link itemprop="dayOfWeek" href="https://schema.org/Wednesday">Wednesday</div>
-<div class="col-md-5 d-inline-block">
-<time itemprop="opens" content="8:00 AM">8:00 AM</time> - <time itemprop="closes" content="8:00 PM">8:00 PM</time></div>
-<div class="col-md-5 d-inline-block">
-<link itemprop="dayOfWeek" href="https://schema.org/Thursday">Thursday</div>
-<div class="col-md-5 d-inline-block">
-<time itemprop="opens" content="8:00 AM">8:00 AM</time> - <time itemprop="closes" content="8:00 PM">8:00 PM</time>			</div>
-<div class="col-md-5 d-inline-block">
-<link itemprop="dayOfWeek" href="https://schema.org/Friday">Friday</div>
-<div class="col-md-5 d-inline-block">
-<time itemprop="opens" content="8:00 AM">8:00 AM</time> - <time itemprop="closes" content="8:00 PM">8:00 PM</time>			</div>
-<div class="col-md-5 d-inline-block">Saturday</div>
-<div class="col-md-5 d-inline-block">
-<time itemprop="opens" content="11:00 AM">11:00 AM</time> - <time itemprop="closes" content="5:00 PM">5:00 PM</time>			</div>
-<div class="fl-rich-text">
+
+<table class="table col-md-12">
+<thead>
+<tr>
+ <th scope="col">Monday</th>
+ <th scope="col">8:00 AM-8:00 PM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+ <th scope="row">Tuesday</th>
+ <td>8:00 AM-8:00 PM</td>
+</tr>
+<tr>
+ <th scope="row">Wednesday</th>
+ <td>8:00 AM-8:00 PM</td>
+ </tr>
+<tr>
+ <th scope="row">Thursday</th>
+ <td>8:00 AM-8:00 PM</td>
+ </tr>
+ <tr>
+   <th scope="row">Friday</th>
+   <td>8:00 AM-8:00 PM</td>
+   </tr>
+
+   <tr>
+     <th scope="row">Saturday</th>
+     <td>11:00 AM-5:00 P</td>
+     </tr>
+</tbody>
+</table>
 <b>Sunday by appointment only.</b>
 </div>
+
 </div>
-</section>
-</center><!-- #contact -->
-<!--==========================
-Footer
-============================-->
-<footer class="page-footer font-small special-color-dark bg-dark">
+
+
+<footer class="page-footer font-small special-color-dark" style="background-color: #575757">
 <div class="footer-copyright text-center text-white p-1">© 2018 Copyright |
- <a href="https://www.upwork.com/freelancers/~017565024bc78aeede"> Abdullah Mamun</a>
+ <a href="https://www.upwork.com/freelancers/~017565024bc78aeede" style="color: aquamarine"> Abdullah Mamun</a>
 </div>
-<!-- Copyright -->
-
 </footer>
-
-<!-- #footer -->
 
    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
