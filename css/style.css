@@ -21,9 +21,7 @@ a:hover, a:active, a:focus {
   outline: none;
   text-decoration: none;
 }
-.d-lg-flex .col-lg-3{
-margin-left: 6%;
-}
+
 .rol:hover{
   text-shadow: 0px 0px 3px yellow;
 }
@@ -108,9 +106,10 @@ h1, h2, h3, h4, h5, h6 {
   #header #logo img {
     max-height: 40px;
   }
-  .d-lg-flex .col-lg-3{
+  .mbdd{
   margin-left: 0%;
   }
+    
 }
 
 #header.header-fixed {
@@ -192,6 +191,7 @@ padding: 10px;
 
 }
 @media (max-width: 768px) {
+  
   #intro p {
     font-size: 18px;
     line-height: 24px;
@@ -247,8 +247,10 @@ padding: 10px;
     transition: all 0.5s;
     z-index: 997;
   }
+.pppp{
+    text-align: center;
 }
-
+}
 #intro .btn-get-started {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
