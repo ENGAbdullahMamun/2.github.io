@@ -12,7 +12,7 @@ $radio=$_REQUEST['radio'];
 $query= "INSERT INTO `user`(`name`, `email`, `phone`, `massage`, `services` , `radio`) VALUES ('$name','$email','$phone','$massage','$b','$radio')";
 $result=mysqli_query($con,$query);
 if ($result == TRUE) {
-  header('location:blog.php');
+  header('location:contact.php');
 }
 else {
   "no";
