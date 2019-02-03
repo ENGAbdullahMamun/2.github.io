@@ -64,12 +64,12 @@ $(".2").click(function(){
     <header id="header">
       <div style="margin-left: 60px; margin-right: 60px">
     <div id="" class="pull-left">
-          <h1><a href="../index.html"><img src="../logo1.png"  class="logo" style="height: 40px; width: 140px;margin-top: -15px;"></a></h1>
+          <h1><a href="../index.html"><img src="../logo1.png"  style="height: 40px; width: 140px;margin-top: -15px;"></a></h1>
         </div>
         <nav id="nav-menu-container">
               <ul class="nav-menu">
             <li class="menu-active"><a class="numbb" href="../index.html">Home</a></li>
-            <li><a href="#about" class="numbb">About Us</a></li>
+            <li><a href="about.html" class="numbb">About Us</a></li>
            <li class="menu-has-children"><a class="numbb" href="">PrimeMed</a>
               <ul>
                  <li><a href="Acne.html">Acne Treatments</a></li>
@@ -178,15 +178,15 @@ $(".2").click(function(){
       <b class="  wow fadeInDown">Or call our friendly staff today</b>
         </div></center><br>
    <div class="form-group">
-      <input type="text" class="form-control" id="inputEmail4" name="name" placeholder="Full Name">
+      <input type="text" class="form-control" id="inputEmail4" name="name" placeholder="Full Name" required>
     </div>
 
     <div class="form-group">
-      <input type="email" class="form-control" id="inputEmail4" name="email" placeholder="Email">
+      <input type="email" class="form-control" id="inputEmail4" name="email" placeholder="Email" required>
     </div>
 
 <div class="form-group">
-  <input type="text" class="form-control" id="inputAddress" name="phone" placeholder="Phone">
+  <input type="text" class="form-control" id="inputAddress" name="phone" placeholder="Phone" required>
   </div>
     <b class="h3 text-white"></b>
 <div class="col-lg-12 p-1">
@@ -432,15 +432,15 @@ color: white;
 <span class=""><strong>Opening</strong> Hours</span>
 </h2>
 <style>
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Reenie+Beanie');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
 table{
   font-size: 16px;
   font-weight: 700;
-  font-family: 'Kaushan Script', cursive;
-  text-shadow: 0px 0px 2px red;
+  font-family: 'Arvo', serif;
+  text-shadow: 5px 5px 1px black;
 }
 b{
- text-shadow: 0px 0px 2px red;
+  text-shadow: 5px 5px 1px black;
 }
 
 .tabbb{
@@ -521,7 +521,7 @@ margin-left: 0%;
 
   <tr>
     <th scope="row">Saturday</th>
-    <td>11:00 AM-5:00 P</td>
+    <td>11:00 AM-5:00 PM</td>
     </tr>
 </tbody>
 </table>
