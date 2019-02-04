@@ -22,9 +22,6 @@ a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
-.rol:hover{
-  text-shadow: 0px 0px 3px yellow;
-}
 p {
   padding: 0;
   margin: 0 0 30px 0;
@@ -71,6 +68,9 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  -webkit-box-shadow: 0px 0px 24px 13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 24px 13px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 24px 13px rgba(0,0,0,0.75);
 }
 
 #header #logo {
@@ -117,12 +117,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 45px 0;
   height: 80px;
   transition: all 0.5s;
-  opacity: 0.8;
+ opacity: 0.9;
 }
 
-#header.header-fixed li{
+#header.header-fixed li a{
 
-  opacity: 1;
 }
 /*--------------------------------------------------------------
 # Intro Section
@@ -930,7 +929,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     animation: logo 4s forwards 0s linear;
 }
 .numb{
-  animation: numb 15s infinite 0s linear;
+
   margin: 0;
   padding-top: 1px;
 }
